@@ -1,0 +1,15 @@
+services:
+  spark:
+    image: quay.io/jupyter/pyspark-notebook:spark-3.5.0
+    container_name: lab7-spark
+    ports:
+      - "127.0.0.1:8888:8888"
+      - "127.0.0.1:4040:4040"
+    volumes:
+      - ./:/home/jovyan/work
+    working_dir: /home/jovyan/work
+    environment:
+      PYTHONPATH: /usr/local/spark/python:/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip
+    command: >
+      bash -c "pip install --quiet openpyxl &&
+               start-notebook.py --ServerApp.token='' --ServerApp.password=''"

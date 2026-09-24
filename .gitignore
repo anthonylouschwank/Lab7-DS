@@ -1,0 +1,10 @@
+# Datos del INE (pesados; se descargan de https://www.ine.gob.gt/encuesta-nacional-de-empleo-e-ingresos/)
+data/raw/
+data/processed/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+spark-warehouse/
+metastore_db/
+derby.log
