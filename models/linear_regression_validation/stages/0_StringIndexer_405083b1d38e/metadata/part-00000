@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1790567228124,"sparkVersion":"3.5.0","uid":"StringIndexer_405083b1d38e","paramMap":{"outputCol":"nivel_educativo_idx","inputCol":"nivel_educativo","handleInvalid":"keep"},"defaultParamMap":{"outputCol":"StringIndexer_405083b1d38e__output","stringOrderType":"frequencyDesc","handleInvalid":"error"}}

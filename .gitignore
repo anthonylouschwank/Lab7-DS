@@ -8,3 +8,8 @@ __pycache__/
 spark-warehouse/
 metastore_db/
 derby.log
+
+# Local container runtime leftovers
+.docker-root/
+.docker-run/
+.podman/
